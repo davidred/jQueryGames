@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hanoi Game</title>
+
+
+    <link rel="stylesheet" href="../css/hanoi.css" type="text/css">
+  </head>
+
+  <body>
+    <script src="../js/jquery-2.1.1.js"></script>
+    <script src="../js/hanoi-view.js"></script>
+    <script src="../../hanoi-core-solution/hanoi-core.js"></script>
+
+    <h1>Towers of Hanoi</h1>
+    <script>
+
+    var game = new Hanoi.Game();
+    var view = new H.View(game);
+
+    view.bindEvents();
+
+    </script>
+
+  </body>
+
+</html>

@@ -1,0 +1,101 @@
+html, body, ul, div, li, p, h1 {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  font: inherit;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  padding-top: 50px;
+  padding-bottom: 200px;
+  text-align: center;
+  font-size: 120px;
+}
+
+.board {
+  height: 300px;
+  width: 900px;
+  list-style: none;
+  margin: 0 auto;
+  border-bottom: 5px solid #DDD;
+  border-left: 5px solid #DDD;
+  border-right: 5px solid #DDD;
+}
+
+.tower:hover {
+  background: blue;
+  opacity: .1;
+}
+
+.tower {
+  position: relative;
+  float: left;
+  width: 290px;
+  height: 295px;
+  border-bottom: 5px solid #DDD;
+  border-left: 5px solid #DDD;
+  border-right: 5px solid #DDD;
+}
+
+.tower-grid {
+  height: 295px;
+  width: 290px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.tower-row {
+  height: 75px;
+  width: 255px;
+  margin: 10px auto;
+  border-radius: 25px;
+}
+
+.disc1 {
+  height: 70px;
+  width: 150px;
+  background: purple;
+  opacity: .5;
+}
+
+.disc2 {
+  height: 70px;
+  width: 220px;
+  background: yellow;
+  opacity: .5;
+}
+
+.disc3 {
+  height: 70px;
+  width: 275px;
+  background: red;
+  opacity: .5;
+}
+
+.position3 {
+  position: absolute;
+  bottom: 10px;
+}
+
+.position2 {
+  position: absolute;
+  bottom: 90px;
+}
+
+.position1 {
+  position: absolute;
+  bottom: 170px;
+}
